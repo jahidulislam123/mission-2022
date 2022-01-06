@@ -1,5 +1,5 @@
 body {
-    ont-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 
 }
@@ -8,6 +8,7 @@ body {
     display: flex;
     margin-left: 8%;
     margin-right: 8%;
+
 
 }
 
@@ -63,7 +64,7 @@ h1 {
     margin-left: 3%;
     margin-right: 5%;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
 
 }
 
@@ -81,4 +82,38 @@ h1 {
 
 #section2-div3 {
     background-color: #FDE8CC;
+}
+
+.third-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+    background-size: 300px;
+}
+
+.third-section-div1 {
+    width: 40%;
+}
+
+.third-section-div2 {
+    width: 60%;
+}
+
+.third-section-div1 img {
+    width: 80%;
+
+}
+
+.fourth-section {
+    padding-bottom: 50px;
+
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+    background-size: 250px;
+
 }
