@@ -30,11 +30,12 @@ body {
 }
 
 .head-color {
-    color: orange;
+    color: #03385c;
 }
 
 .button {
-    background-color: rgb(255, 102, 0);
+
+    background-image: linear-gradient(#7214AF, #BB0B98);
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
@@ -52,7 +53,7 @@ h1 {
 
 #h1-margin {
     border-left: 3px solid;
-    border-image: linear-gradient(tomato, tomato);
+    border-image: linear-gradient(#9011A6, tomato);
     border-image-slice: 1;
     padding-left: 7px;
 
@@ -118,7 +119,8 @@ h1 {
 .fourth-section {
     padding-bottom: 50px;
 
-    background-image: url(images/shapes/shape-1.png);
+
+    background-image: url(images/shapes/shape-4.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 250px;
@@ -129,6 +131,7 @@ h1 {
 
 .fifth-section img {
     width: 40%;
+
 
 }
 
@@ -162,8 +165,4 @@ footer {
 
 #fotter-style {
     font-family: cursive;
-}
-
-p {
-    text-justify: auto;
 }
