@@ -4,6 +4,7 @@ body {
 
 }
 
+
 .flex-container {
     display: flex;
     margin-left: 8%;
@@ -100,10 +101,13 @@ h1 {
 
 .third-section-div1 {
     width: 40%;
+
 }
+
 
 .third-section-div2 {
     width: 60%;
+
 }
 
 .third-section-div1 img {
@@ -114,19 +118,14 @@ h1 {
 .fourth-section {
     padding-bottom: 50px;
 
-
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-
     background-size: 250px;
 
 }
 
-#image-section4 {
-    padding-left: 40px;
-    padding: right 0;
-}
+
 
 .fifth-section img {
     width: 40%;
@@ -154,8 +153,17 @@ h1 {
 }
 
 footer {
-    background-color: blueviolet;
+    background-color: black;
     color: white;
     text-align: center;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+#fotter-style {
+    font-family: cursive;
+}
+
+p {
+    text-justify: auto;
 }
